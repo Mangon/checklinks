@@ -20,8 +20,8 @@ let dealedLinks = []
 let unDealedLinks = []
 
 /**
- * @returns {Array} links 该url内的所有http/https链接
- * @param {String} url 需要获取的url
+ * @returns {Array} links return all http/https links in this website
+ * @param {String} url the website
  */
 async function getUrlContent (url) {
   try {
@@ -71,6 +71,7 @@ async function checkUrl (url) {
     return false
   }
 }
+
 async function dealLinks () {
   let currentLink = unDealedLinks.pop()
   let links = await getUrlContent(currentLink)

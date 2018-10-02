@@ -1,6 +1,6 @@
 ## checklinks
 
-Find the invalid links in your webiste.  
+Find the invalid links in your website.  
 
 1. change the parameter baseUrl to your own root directory of your website.
 
