@@ -120,7 +120,7 @@ async function dealLinks () {
         }
       })
     })
-    console.log(JSON.stringfy(finalResult))
+    console.log(JSON.stringify(finalResult))
   }
 }
 unDealedLinks.push(baseUrl)
